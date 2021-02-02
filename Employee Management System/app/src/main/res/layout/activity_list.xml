@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/empText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dip"
+            android:textSize="26dip"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/edit_edit"
+            android:layout_width="217dp"
+            android:layout_height="95dp"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/delete_delete"
+            android:layout_width="217dp"
+            android:layout_height="91dp"
+            android:text="Delete
+" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
